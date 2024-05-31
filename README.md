@@ -4,9 +4,9 @@ The sCode aims to standardize the way code files are represented in documents, a
 
 ### sCode Syntax
 
-## Versioning
+#### Versioning
 
-The sCode standard includes a required --- Version: line at the beginning of the document that specifies the version of the sCode standard being used. This helps in tracking the standard's version and ensuring compatibility with tools and parsers.
+The sCode standard includes a required `--- Version:` line at the beginning of the document that specifies the version of the sCode standard being used. This helps in tracking the standard's version and ensuring compatibility with tools and parsers.
 
 #### Code Blocks
 
@@ -32,7 +32,7 @@ Each code block in sCode starts with the line `--- Path:`, followed by the file 
 }
 ```
 
-### Comments
+#### Comments
 
 Comments within the code blocks follow the syntax of the programming language used. General comments, not inside code blocks, can be added outside the code blocks to describe the context or provide additional information.
 
@@ -51,11 +51,11 @@ export class User {
 }
 ```
 
-## Directory Structure
+### Directory Structure
 
 The directory structure is implicit in the file path specified after --- Path:. This means that when exporting the files, the directory structure will be recreated as specified in the file paths.
 
-## Complete Example
+### Complete Example
 
 A complete sCode example demonstrates the definition of multiple files in different directories:
 
@@ -93,7 +93,7 @@ async function init() {
 export default init;
 ```
 
-## sCode Benefits
+### sCode Benefits
 
 * **Simplification in Project Documentation:** Facilitates the inclusion of multiple code files in a single document, promoting clearer and more organized documentation.
 * **Ease of Reading and Navigation:** Helps in reading and navigating large codebases, allowing developers to quickly find relevant files.
