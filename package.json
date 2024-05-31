@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "name": "s-code",
+  "version": "0.1",
+  "description": "The sCode standard is an approach developed to unify and export code files in a simple and efficient manner, using a specific syntax that facilitates the documentation, reading, and exporting of code blocks.",
+  "main": "src/index.js",
+  "repository": "https://github.com/lucassm02/s-code.git",
+  "author": "Lucas Santos <lucassm02@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
